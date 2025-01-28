@@ -15,3 +15,10 @@ func TestSubtract(t *testing.T) {
 		t.Errorf("Expected 2, got %d", result)
 	}
 }
+
+func TestMultiply(t *testing.T) {
+	result := Multiply(2, 3)
+	if result != 6 {
+		t.Errorf("Expected 6, got %d", result)
+	}
+}
