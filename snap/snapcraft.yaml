@@ -3,6 +3,8 @@ version: 1.2
 summary: test snap publish stuff
 description: This is a snap to test snap store publishing features
 
+# GENERATE NOISE DIFF
+
 grade: stable
 base: core24
 # confinement: strict
